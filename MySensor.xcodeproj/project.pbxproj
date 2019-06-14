@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F22F6CF222AF668600D4DF1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F6CF122AF668600D4DF1B /* AppDelegate.swift */; };
+		F22F6CF422AF668600D4DF1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F6CF322AF668600D4DF1B /* ViewController.swift */; };
+		F22F6CF722AF668600D4DF1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22F6CF522AF668600D4DF1B /* Main.storyboard */; };
+		F22F6CF922AF668700D4DF1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22F6CF822AF668700D4DF1B /* Assets.xcassets */; };
+		F22F6CFC22AF668700D4DF1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22F6CFA22AF668700D4DF1B /* LaunchScreen.storyboard */; };
+		F22F6D0722AF668700D4DF1B /* MySensorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F6D0622AF668700D4DF1B /* MySensorTests.swift */; };
+		F22F6D1222AF668700D4DF1B /* MySensorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F6D1122AF668700D4DF1B /* MySensorUITests.swift */; };
+		F22F6D2022AF701200D4DF1B /* Brightness.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22F6D1F22AF701200D4DF1B /* Brightness.storyboard */; };
+		F22F6D2222AF707300D4DF1B /* BrightnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F6D2122AF707300D4DF1B /* BrightnessViewController.swift */; };
+		F22F6D2622AF75CE00D4DF1B /* Proximity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22F6D2522AF75CE00D4DF1B /* Proximity.storyboard */; };
+		F22F6D2822AF75F200D4DF1B /* ProximityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F6D2722AF75F200D4DF1B /* ProximityViewController.swift */; };
+		F22F6D2A22AF772800D4DF1B /* ShakeGesture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22F6D2922AF772800D4DF1B /* ShakeGesture.storyboard */; };
+		F22F6D2C22AF774100D4DF1B /* ShakeGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F6D2B22AF774100D4DF1B /* ShakeGestureViewController.swift */; };
+		F22F6D2E22AF780000D4DF1B /* Microphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22F6D2D22AF780000D4DF1B /* Microphone.storyboard */; };
+		F22F6D3022AF781C00D4DF1B /* MicrophoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F6D2F22AF781C00D4DF1B /* MicrophoneViewController.swift */; };
+		F22F6D3222AF858F00D4DF1B /* LatitudeLongitude.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22F6D3122AF858F00D4DF1B /* LatitudeLongitude.storyboard */; };
+		F22F6D3422AF85C500D4DF1B /* LatitudeLongitudeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F6D3322AF85C500D4DF1B /* LatitudeLongitudeViewController.swift */; };
+		F22F6D3622AF8E0E00D4DF1B /* MagneticForce.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22F6D3522AF8E0E00D4DF1B /* MagneticForce.storyboard */; };
+		F22F6D3822AF8E4300D4DF1B /* MagneticForceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F6D3722AF8E4300D4DF1B /* MagneticForceViewController.swift */; };
+		F22F6D3A22AF8FB600D4DF1B /* Elevation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22F6D3922AF8FB600D4DF1B /* Elevation.storyboard */; };
+		F22F6D3C22AF8FEA00D4DF1B /* ElevationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F6D3B22AF8FEA00D4DF1B /* ElevationViewController.swift */; };
+		F22F6D3E22AF905400D4DF1B /* Acceleration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22F6D3D22AF905400D4DF1B /* Acceleration.storyboard */; };
+		F22F6D4022AF90CA00D4DF1B /* AccelerationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F6D3F22AF90CA00D4DF1B /* AccelerationViewController.swift */; };
+		F22F6D4222AF92E300D4DF1B /* Steps.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22F6D4122AF92E300D4DF1B /* Steps.storyboard */; };
+		F22F6D4422AF931F00D4DF1B /* StepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F6D4322AF931F00D4DF1B /* StepsViewController.swift */; };
+		F22F6D4A22AF93C000D4DF1B /* BatteryRemaining.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22F6D4922AF93C000D4DF1B /* BatteryRemaining.storyboard */; };
+		F22F6D4C22AF93C900D4DF1B /* BatteryRemainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F6D4B22AF93C900D4DF1B /* BatteryRemainingViewController.swift */; };
+		F22F6D4E22AF93FE00D4DF1B /* MovingSpeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22F6D4D22AF93FE00D4DF1B /* MovingSpeed.storyboard */; };
+		F22F6D5022AF940600D4DF1B /* MovingSpeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F6D4F22AF940600D4DF1B /* MovingSpeedViewController.swift */; };
+		F22F6D5F22B10C1700D4DF1B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F22F6D5E22B10C1700D4DF1B /* CoreLocation.framework */; };
+		F22F6D6122B1164600D4DF1B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F22F6D6022B1164600D4DF1B /* CoreMotion.framework */; };
+		F22F6D6322B1212000D4DF1B /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F22F6D6222B1212000D4DF1B /* CoreImage.framework */; };
+		F22F6D6522B13B3800D4DF1B /* VoiceRecognition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22F6D6422B13B3800D4DF1B /* VoiceRecognition.storyboard */; };
+		F22F6D6722B13B4500D4DF1B /* VoiceRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F6D6622B13B4500D4DF1B /* VoiceRecognitionViewController.swift */; };
+		F22F6D6A22B13C0F00D4DF1B /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F22F6D6922B13C0F00D4DF1B /* Speech.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F22F6D0322AF668700D4DF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F22F6CE622AF668600D4DF1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F22F6CED22AF668600D4DF1B;
+			remoteInfo = MySensor;
+		};
+		F22F6D0E22AF668700D4DF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F22F6CE622AF668600D4DF1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F22F6CED22AF668600D4DF1B;
+			remoteInfo = MySensor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F22F6CEE22AF668600D4DF1B /* MySensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22F6CF122AF668600D4DF1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F22F6CF322AF668600D4DF1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F22F6CF622AF668600D4DF1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F22F6CF822AF668700D4DF1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F22F6CFB22AF668700D4DF1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F22F6CFD22AF668700D4DF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F22F6D0222AF668700D4DF1B /* MySensorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySensorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22F6D0622AF668700D4DF1B /* MySensorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySensorTests.swift; sourceTree = "<group>"; };
+		F22F6D0822AF668700D4DF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F22F6D0D22AF668700D4DF1B /* MySensorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySensorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22F6D1122AF668700D4DF1B /* MySensorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySensorUITests.swift; sourceTree = "<group>"; };
+		F22F6D1322AF668700D4DF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F22F6D1F22AF701200D4DF1B /* Brightness.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Brightness.storyboard; sourceTree = "<group>"; };
+		F22F6D2122AF707300D4DF1B /* BrightnessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightnessViewController.swift; sourceTree = "<group>"; };
+		F22F6D2522AF75CE00D4DF1B /* Proximity.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Proximity.storyboard; sourceTree = "<group>"; };
+		F22F6D2722AF75F200D4DF1B /* ProximityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximityViewController.swift; sourceTree = "<group>"; };
+		F22F6D2922AF772800D4DF1B /* ShakeGesture.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ShakeGesture.storyboard; sourceTree = "<group>"; };
+		F22F6D2B22AF774100D4DF1B /* ShakeGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeGestureViewController.swift; sourceTree = "<group>"; };
+		F22F6D2D22AF780000D4DF1B /* Microphone.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Microphone.storyboard; sourceTree = "<group>"; };
+		F22F6D2F22AF781C00D4DF1B /* MicrophoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneViewController.swift; sourceTree = "<group>"; };
+		F22F6D3122AF858F00D4DF1B /* LatitudeLongitude.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LatitudeLongitude.storyboard; sourceTree = "<group>"; };
+		F22F6D3322AF85C500D4DF1B /* LatitudeLongitudeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatitudeLongitudeViewController.swift; sourceTree = "<group>"; };
+		F22F6D3522AF8E0E00D4DF1B /* MagneticForce.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MagneticForce.storyboard; sourceTree = "<group>"; };
+		F22F6D3722AF8E4300D4DF1B /* MagneticForceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticForceViewController.swift; sourceTree = "<group>"; };
+		F22F6D3922AF8FB600D4DF1B /* Elevation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Elevation.storyboard; sourceTree = "<group>"; };
+		F22F6D3B22AF8FEA00D4DF1B /* ElevationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevationViewController.swift; sourceTree = "<group>"; };
+		F22F6D3D22AF905400D4DF1B /* Acceleration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Acceleration.storyboard; sourceTree = "<group>"; };
+		F22F6D3F22AF90CA00D4DF1B /* AccelerationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerationViewController.swift; sourceTree = "<group>"; };
+		F22F6D4122AF92E300D4DF1B /* Steps.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Steps.storyboard; sourceTree = "<group>"; };
+		F22F6D4322AF931F00D4DF1B /* StepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsViewController.swift; sourceTree = "<group>"; };
+		F22F6D4922AF93C000D4DF1B /* BatteryRemaining.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BatteryRemaining.storyboard; sourceTree = "<group>"; };
+		F22F6D4B22AF93C900D4DF1B /* BatteryRemainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryRemainingViewController.swift; sourceTree = "<group>"; };
+		F22F6D4D22AF93FE00D4DF1B /* MovingSpeed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MovingSpeed.storyboard; sourceTree = "<group>"; };
+		F22F6D4F22AF940600D4DF1B /* MovingSpeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingSpeedViewController.swift; sourceTree = "<group>"; };
+		F22F6D5E22B10C1700D4DF1B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F22F6D6022B1164600D4DF1B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		F22F6D6222B1212000D4DF1B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		F22F6D6422B13B3800D4DF1B /* VoiceRecognition.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VoiceRecognition.storyboard; sourceTree = "<group>"; };
+		F22F6D6622B13B4500D4DF1B /* VoiceRecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecognitionViewController.swift; sourceTree = "<group>"; };
+		F22F6D6922B13C0F00D4DF1B /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F22F6CEB22AF668600D4DF1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22F6D6A22B13C0F00D4DF1B /* Speech.framework in Frameworks */,
+				F22F6D6322B1212000D4DF1B /* CoreImage.framework in Frameworks */,
+				F22F6D6122B1164600D4DF1B /* CoreMotion.framework in Frameworks */,
+				F22F6D5F22B10C1700D4DF1B /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22F6CFF22AF668700D4DF1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22F6D0A22AF668700D4DF1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F22F6CE522AF668600D4DF1B = {
+			isa = PBXGroup;
+			children = (
+				F22F6CF022AF668600D4DF1B /* MySensor */,
+				F22F6D0522AF668700D4DF1B /* MySensorTests */,
+				F22F6D1022AF668700D4DF1B /* MySensorUITests */,
+				F22F6CEF22AF668600D4DF1B /* Products */,
+				F22F6D5D22B10C1600D4DF1B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F22F6CEF22AF668600D4DF1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F22F6CEE22AF668600D4DF1B /* MySensor.app */,
+				F22F6D0222AF668700D4DF1B /* MySensorTests.xctest */,
+				F22F6D0D22AF668700D4DF1B /* MySensorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F22F6CF022AF668600D4DF1B /* MySensor */ = {
+			isa = PBXGroup;
+			children = (
+				F22F6D6822B13B4A00D4DF1B /* VoiceRecognition */,
+				F22F6D5322AF957700D4DF1B /* ShakeGesture */,
+				F22F6D5122AF94F600D4DF1B /* Brightness */,
+				F22F6D5222AF951600D4DF1B /* Proximity */,
+				F22F6D5C22AF964600D4DF1B /* MovingSpeed */,
+				F22F6D5B22AF963C00D4DF1B /* BatteryRemaining */,
+				F22F6D5922AF962500D4DF1B /* Steps */,
+				F22F6D5822AF961900D4DF1B /* Acceleration */,
+				F22F6D5722AF960D00D4DF1B /* Elevation */,
+				F22F6D5622AF960100D4DF1B /* MagneticForce */,
+				F22F6D5522AF959D00D4DF1B /* LatitudeLongitude */,
+				F22F6D5422AF958600D4DF1B /* Microphone */,
+				F22F6CF122AF668600D4DF1B /* AppDelegate.swift */,
+				F22F6CF322AF668600D4DF1B /* ViewController.swift */,
+				F22F6CF522AF668600D4DF1B /* Main.storyboard */,
+				F22F6CF822AF668700D4DF1B /* Assets.xcassets */,
+				F22F6CFA22AF668700D4DF1B /* LaunchScreen.storyboard */,
+				F22F6CFD22AF668700D4DF1B /* Info.plist */,
+			);
+			path = MySensor;
+			sourceTree = "<group>";
+		};
+		F22F6D0522AF668700D4DF1B /* MySensorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F22F6D0622AF668700D4DF1B /* MySensorTests.swift */,
+				F22F6D0822AF668700D4DF1B /* Info.plist */,
+			);
+			path = MySensorTests;
+			sourceTree = "<group>";
+		};
+		F22F6D1022AF668700D4DF1B /* MySensorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F22F6D1122AF668700D4DF1B /* MySensorUITests.swift */,
+				F22F6D1322AF668700D4DF1B /* Info.plist */,
+			);
+			path = MySensorUITests;
+			sourceTree = "<group>";
+		};
+		F22F6D5122AF94F600D4DF1B /* Brightness */ = {
+			isa = PBXGroup;
+			children = (
+				F22F6D1F22AF701200D4DF1B /* Brightness.storyboard */,
+				F22F6D2122AF707300D4DF1B /* BrightnessViewController.swift */,
+			);
+			path = Brightness;
+			sourceTree = "<group>";
+		};
+		F22F6D5222AF951600D4DF1B /* Proximity */ = {
+			isa = PBXGroup;
+			children = (
+				F22F6D2522AF75CE00D4DF1B /* Proximity.storyboard */,
+				F22F6D2722AF75F200D4DF1B /* ProximityViewController.swift */,
+			);
+			path = Proximity;
+			sourceTree = "<group>";
+		};
+		F22F6D5322AF957700D4DF1B /* ShakeGesture */ = {
+			isa = PBXGroup;
+			children = (
+				F22F6D2922AF772800D4DF1B /* ShakeGesture.storyboard */,
+				F22F6D2B22AF774100D4DF1B /* ShakeGestureViewController.swift */,
+			);
+			path = ShakeGesture;
+			sourceTree = "<group>";
+		};
+		F22F6D5422AF958600D4DF1B /* Microphone */ = {
+			isa = PBXGroup;
+			children = (
+				F22F6D2D22AF780000D4DF1B /* Microphone.storyboard */,
+				F22F6D2F22AF781C00D4DF1B /* MicrophoneViewController.swift */,
+			);
+			path = Microphone;
+			sourceTree = "<group>";
+		};
+		F22F6D5522AF959D00D4DF1B /* LatitudeLongitude */ = {
+			isa = PBXGroup;
+			children = (
+				F22F6D3122AF858F00D4DF1B /* LatitudeLongitude.storyboard */,
+				F22F6D3322AF85C500D4DF1B /* LatitudeLongitudeViewController.swift */,
+			);
+			path = LatitudeLongitude;
+			sourceTree = "<group>";
+		};
+		F22F6D5622AF960100D4DF1B /* MagneticForce */ = {
+			isa = PBXGroup;
+			children = (
+				F22F6D3522AF8E0E00D4DF1B /* MagneticForce.storyboard */,
+				F22F6D3722AF8E4300D4DF1B /* MagneticForceViewController.swift */,
+			);
+			path = MagneticForce;
+			sourceTree = "<group>";
+		};
+		F22F6D5722AF960D00D4DF1B /* Elevation */ = {
+			isa = PBXGroup;
+			children = (
+				F22F6D3922AF8FB600D4DF1B /* Elevation.storyboard */,
+				F22F6D3B22AF8FEA00D4DF1B /* ElevationViewController.swift */,
+			);
+			path = Elevation;
+			sourceTree = "<group>";
+		};
+		F22F6D5822AF961900D4DF1B /* Acceleration */ = {
+			isa = PBXGroup;
+			children = (
+				F22F6D3D22AF905400D4DF1B /* Acceleration.storyboard */,
+				F22F6D3F22AF90CA00D4DF1B /* AccelerationViewController.swift */,
+			);
+			path = Acceleration;
+			sourceTree = "<group>";
+		};
+		F22F6D5922AF962500D4DF1B /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				F22F6D4122AF92E300D4DF1B /* Steps.storyboard */,
+				F22F6D4322AF931F00D4DF1B /* StepsViewController.swift */,
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
+		F22F6D5B22AF963C00D4DF1B /* BatteryRemaining */ = {
+			isa = PBXGroup;
+			children = (
+				F22F6D4922AF93C000D4DF1B /* BatteryRemaining.storyboard */,
+				F22F6D4B22AF93C900D4DF1B /* BatteryRemainingViewController.swift */,
+			);
+			path = BatteryRemaining;
+			sourceTree = "<group>";
+		};
+		F22F6D5C22AF964600D4DF1B /* MovingSpeed */ = {
+			isa = PBXGroup;
+			children = (
+				F22F6D4D22AF93FE00D4DF1B /* MovingSpeed.storyboard */,
+				F22F6D4F22AF940600D4DF1B /* MovingSpeedViewController.swift */,
+			);
+			path = MovingSpeed;
+			sourceTree = "<group>";
+		};
+		F22F6D5D22B10C1600D4DF1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F22F6D6922B13C0F00D4DF1B /* Speech.framework */,
+				F22F6D6222B1212000D4DF1B /* CoreImage.framework */,
+				F22F6D6022B1164600D4DF1B /* CoreMotion.framework */,
+				F22F6D5E22B10C1700D4DF1B /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F22F6D6822B13B4A00D4DF1B /* VoiceRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				F22F6D6622B13B4500D4DF1B /* VoiceRecognitionViewController.swift */,
+				F22F6D6422B13B3800D4DF1B /* VoiceRecognition.storyboard */,
+			);
+			path = VoiceRecognition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F22F6CED22AF668600D4DF1B /* MySensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22F6D1622AF668700D4DF1B /* Build configuration list for PBXNativeTarget "MySensor" */;
+			buildPhases = (
+				F22F6CEA22AF668600D4DF1B /* Sources */,
+				F22F6CEB22AF668600D4DF1B /* Frameworks */,
+				F22F6CEC22AF668600D4DF1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySensor;
+			productName = MySensor;
+			productReference = F22F6CEE22AF668600D4DF1B /* MySensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F22F6D0122AF668700D4DF1B /* MySensorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22F6D1922AF668700D4DF1B /* Build configuration list for PBXNativeTarget "MySensorTests" */;
+			buildPhases = (
+				F22F6CFE22AF668700D4DF1B /* Sources */,
+				F22F6CFF22AF668700D4DF1B /* Frameworks */,
+				F22F6D0022AF668700D4DF1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F22F6D0422AF668700D4DF1B /* PBXTargetDependency */,
+			);
+			name = MySensorTests;
+			productName = MySensorTests;
+			productReference = F22F6D0222AF668700D4DF1B /* MySensorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F22F6D0C22AF668700D4DF1B /* MySensorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22F6D1C22AF668700D4DF1B /* Build configuration list for PBXNativeTarget "MySensorUITests" */;
+			buildPhases = (
+				F22F6D0922AF668700D4DF1B /* Sources */,
+				F22F6D0A22AF668700D4DF1B /* Frameworks */,
+				F22F6D0B22AF668700D4DF1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F22F6D0F22AF668700D4DF1B /* PBXTargetDependency */,
+			);
+			name = MySensorUITests;
+			productName = MySensorUITests;
+			productReference = F22F6D0D22AF668700D4DF1B /* MySensorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F22F6CE622AF668600D4DF1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Oshima Haruna";
+				TargetAttributes = {
+					F22F6CED22AF668600D4DF1B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					F22F6D0122AF668700D4DF1B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F22F6CED22AF668600D4DF1B;
+					};
+					F22F6D0C22AF668700D4DF1B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F22F6CED22AF668600D4DF1B;
+					};
+				};
+			};
+			buildConfigurationList = F22F6CE922AF668600D4DF1B /* Build configuration list for PBXProject "MySensor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F22F6CE522AF668600D4DF1B;
+			productRefGroup = F22F6CEF22AF668600D4DF1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F22F6CED22AF668600D4DF1B /* MySensor */,
+				F22F6D0122AF668700D4DF1B /* MySensorTests */,
+				F22F6D0C22AF668700D4DF1B /* MySensorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F22F6CEC22AF668600D4DF1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22F6D2E22AF780000D4DF1B /* Microphone.storyboard in Resources */,
+				F22F6D3622AF8E0E00D4DF1B /* MagneticForce.storyboard in Resources */,
+				F22F6CFC22AF668700D4DF1B /* LaunchScreen.storyboard in Resources */,
+				F22F6D4A22AF93C000D4DF1B /* BatteryRemaining.storyboard in Resources */,
+				F22F6D3222AF858F00D4DF1B /* LatitudeLongitude.storyboard in Resources */,
+				F22F6D2A22AF772800D4DF1B /* ShakeGesture.storyboard in Resources */,
+				F22F6D2022AF701200D4DF1B /* Brightness.storyboard in Resources */,
+				F22F6D4E22AF93FE00D4DF1B /* MovingSpeed.storyboard in Resources */,
+				F22F6D3E22AF905400D4DF1B /* Acceleration.storyboard in Resources */,
+				F22F6CF922AF668700D4DF1B /* Assets.xcassets in Resources */,
+				F22F6D2622AF75CE00D4DF1B /* Proximity.storyboard in Resources */,
+				F22F6D6522B13B3800D4DF1B /* VoiceRecognition.storyboard in Resources */,
+				F22F6D3A22AF8FB600D4DF1B /* Elevation.storyboard in Resources */,
+				F22F6D4222AF92E300D4DF1B /* Steps.storyboard in Resources */,
+				F22F6CF722AF668600D4DF1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22F6D0022AF668700D4DF1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22F6D0B22AF668700D4DF1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F22F6CEA22AF668600D4DF1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22F6D3022AF781C00D4DF1B /* MicrophoneViewController.swift in Sources */,
+				F22F6D4C22AF93C900D4DF1B /* BatteryRemainingViewController.swift in Sources */,
+				F22F6D5022AF940600D4DF1B /* MovingSpeedViewController.swift in Sources */,
+				F22F6D3422AF85C500D4DF1B /* LatitudeLongitudeViewController.swift in Sources */,
+				F22F6D3C22AF8FEA00D4DF1B /* ElevationViewController.swift in Sources */,
+				F22F6D6722B13B4500D4DF1B /* VoiceRecognitionViewController.swift in Sources */,
+				F22F6D2822AF75F200D4DF1B /* ProximityViewController.swift in Sources */,
+				F22F6D2222AF707300D4DF1B /* BrightnessViewController.swift in Sources */,
+				F22F6CF422AF668600D4DF1B /* ViewController.swift in Sources */,
+				F22F6D2C22AF774100D4DF1B /* ShakeGestureViewController.swift in Sources */,
+				F22F6D4422AF931F00D4DF1B /* StepsViewController.swift in Sources */,
+				F22F6D3822AF8E4300D4DF1B /* MagneticForceViewController.swift in Sources */,
+				F22F6D4022AF90CA00D4DF1B /* AccelerationViewController.swift in Sources */,
+				F22F6CF222AF668600D4DF1B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22F6CFE22AF668700D4DF1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22F6D0722AF668700D4DF1B /* MySensorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22F6D0922AF668700D4DF1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22F6D1222AF668700D4DF1B /* MySensorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F22F6D0422AF668700D4DF1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F22F6CED22AF668600D4DF1B /* MySensor */;
+			targetProxy = F22F6D0322AF668700D4DF1B /* PBXContainerItemProxy */;
+		};
+		F22F6D0F22AF668700D4DF1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F22F6CED22AF668600D4DF1B /* MySensor */;
+			targetProxy = F22F6D0E22AF668700D4DF1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F22F6CF522AF668600D4DF1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F22F6CF622AF668600D4DF1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F22F6CFA22AF668700D4DF1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F22F6CFB22AF668700D4DF1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F22F6D1422AF668700D4DF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F22F6D1522AF668700D4DF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F22F6D1722AF668700D4DF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXL9U2ZT42;
+				INFOPLIST_FILE = MySensor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haruna.MySensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F22F6D1822AF668700D4DF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXL9U2ZT42;
+				INFOPLIST_FILE = MySensor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haruna.MySensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F22F6D1A22AF668700D4DF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4VPAQ9666;
+				INFOPLIST_FILE = MySensorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haruna.MySensorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySensor.app/MySensor";
+			};
+			name = Debug;
+		};
+		F22F6D1B22AF668700D4DF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4VPAQ9666;
+				INFOPLIST_FILE = MySensorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haruna.MySensorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySensor.app/MySensor";
+			};
+			name = Release;
+		};
+		F22F6D1D22AF668700D4DF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4VPAQ9666;
+				INFOPLIST_FILE = MySensorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haruna.MySensorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySensor;
+			};
+			name = Debug;
+		};
+		F22F6D1E22AF668700D4DF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4VPAQ9666;
+				INFOPLIST_FILE = MySensorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haruna.MySensorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySensor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F22F6CE922AF668600D4DF1B /* Build configuration list for PBXProject "MySensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22F6D1422AF668700D4DF1B /* Debug */,
+				F22F6D1522AF668700D4DF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22F6D1622AF668700D4DF1B /* Build configuration list for PBXNativeTarget "MySensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22F6D1722AF668700D4DF1B /* Debug */,
+				F22F6D1822AF668700D4DF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22F6D1922AF668700D4DF1B /* Build configuration list for PBXNativeTarget "MySensorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22F6D1A22AF668700D4DF1B /* Debug */,
+				F22F6D1B22AF668700D4DF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22F6D1C22AF668700D4DF1B /* Build configuration list for PBXNativeTarget "MySensorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22F6D1D22AF668700D4DF1B /* Debug */,
+				F22F6D1E22AF668700D4DF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F22F6CE622AF668600D4DF1B /* Project object */;
+}
