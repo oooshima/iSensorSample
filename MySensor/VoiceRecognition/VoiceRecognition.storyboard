@@ -17,22 +17,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="音声認識" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgq-js-jcX">
-                                <rect key="frame" x="103" y="85" width="166" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="音声認識" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgq-js-jcX">
+                                <rect key="frame" x="109.00000000000001" y="79.333333333333329" width="157.33333333333337" height="47.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="39"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Hfp-DE-DvN">
-                                <rect key="frame" x="19" y="140" width="340" height="617"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Hfp-DE-DvN">
+                                <rect key="frame" x="37.666666666666657" y="152" width="300" height="568.33333333333337"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cgq-js-jcX" firstAttribute="top" secondItem="61Z-ub-P69" secondAttribute="top" multiplier="1.8" id="NKY-Gq-vpU"/>
+                            <constraint firstItem="cgq-js-jcX" firstAttribute="centerX" secondItem="qwB-QP-t1f" secondAttribute="centerX" id="azI-kX-aMu"/>
+                            <constraint firstItem="Hfp-DE-DvN" firstAttribute="centerX" secondItem="qwB-QP-t1f" secondAttribute="centerX" id="bUL-Ws-hpL"/>
+                            <constraint firstItem="Hfp-DE-DvN" firstAttribute="top" secondItem="cgq-js-jcX" secondAttribute="bottom" multiplier="1.2" id="cds-lm-PVA"/>
+                            <constraint firstItem="Hfp-DE-DvN" firstAttribute="width" secondItem="qwB-QP-t1f" secondAttribute="width" multiplier="0.8" id="el4-RJ-SlM"/>
+                            <constraint firstItem="Hfp-DE-DvN" firstAttribute="height" secondItem="qwB-QP-t1f" secondAttribute="height" multiplier="0.7" id="y7u-9S-qnm"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="61Z-ub-P69"/>
                     </view>
                     <connections>

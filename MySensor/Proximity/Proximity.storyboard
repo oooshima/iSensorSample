@@ -17,22 +17,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="近接センサ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="81r-Cb-VMp">
-                                <rect key="frame" x="99" y="120" width="177" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="近接センサ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="81r-Cb-VMp">
+                                <rect key="frame" x="99" y="79.333333333333329" width="177" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="離" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lu0-lx-4Wi">
-                                <rect key="frame" x="8" y="358" width="359" height="96"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="離" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lu0-lx-4Wi">
+                                <rect key="frame" x="0.0" y="324.66666666666669" width="375" height="162.66666666666669"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="39"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="81r-Cb-VMp" firstAttribute="centerX" secondItem="KbA-0O-a8a" secondAttribute="centerX" id="3p8-d6-fvb"/>
+                            <constraint firstItem="Lu0-lx-4Wi" firstAttribute="width" secondItem="KbA-0O-a8a" secondAttribute="width" id="JvI-m0-5OT"/>
+                            <constraint firstItem="Lu0-lx-4Wi" firstAttribute="height" secondItem="KbA-0O-a8a" secondAttribute="height" multiplier="0.2" id="SLI-1A-1N4"/>
+                            <constraint firstItem="Lu0-lx-4Wi" firstAttribute="centerY" secondItem="KbA-0O-a8a" secondAttribute="centerY" id="Wah-Wa-yHS"/>
+                            <constraint firstItem="81r-Cb-VMp" firstAttribute="top" secondItem="D5P-Uj-XbL" secondAttribute="top" multiplier="1.8" id="ZcB-fx-5vN"/>
+                            <constraint firstItem="Lu0-lx-4Wi" firstAttribute="centerX" secondItem="KbA-0O-a8a" secondAttribute="centerX" id="eVh-Es-NSr"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="D5P-Uj-XbL"/>
                     </view>
                     <connections>

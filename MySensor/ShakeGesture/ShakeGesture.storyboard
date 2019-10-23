@@ -17,22 +17,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7x-Uh-3yk">
-                                <rect key="frame" x="0.0" y="405" width="375" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7x-Uh-3yk">
+                                <rect key="frame" x="0.0" y="324.66666666666669" width="375" height="162.66666666666669"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="39"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="シェイクジェスチャー" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ryo-YP-sYP">
-                                <rect key="frame" x="11" y="117" width="353" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="シェイクジェスチャー" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ryo-YP-sYP">
+                                <rect key="frame" x="11" y="79.333333333333329" width="353" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="h7x-Uh-3yk" firstAttribute="centerY" secondItem="5TD-uP-RP8" secondAttribute="centerY" id="5d6-Dx-c19"/>
+                            <constraint firstItem="ryo-YP-sYP" firstAttribute="centerX" secondItem="5TD-uP-RP8" secondAttribute="centerX" id="AcB-eQ-4S9"/>
+                            <constraint firstItem="h7x-Uh-3yk" firstAttribute="width" secondItem="5TD-uP-RP8" secondAttribute="width" id="PZi-QR-Ei3"/>
+                            <constraint firstItem="ryo-YP-sYP" firstAttribute="top" secondItem="aGb-B3-epI" secondAttribute="top" multiplier="1.8" id="alE-yr-ZGE"/>
+                            <constraint firstItem="h7x-Uh-3yk" firstAttribute="height" secondItem="5TD-uP-RP8" secondAttribute="height" multiplier="0.2" id="baL-BL-uQT"/>
+                            <constraint firstItem="h7x-Uh-3yk" firstAttribute="centerX" secondItem="5TD-uP-RP8" secondAttribute="centerX" id="p95-vT-L6o"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="aGb-B3-epI"/>
                     </view>
                     <connections>

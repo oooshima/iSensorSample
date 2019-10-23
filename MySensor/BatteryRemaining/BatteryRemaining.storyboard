@@ -17,29 +17,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="バッテリー残量" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVn-A8-E6a">
-                                <rect key="frame" x="64" y="121" width="247" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="バッテリー残量" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVn-A8-E6a">
+                                <rect key="frame" x="64" y="79.333333333333329" width="247" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Level" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ugz-ap-DXD">
-                                <rect key="frame" x="36" y="375" width="303" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Level" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ugz-ap-DXD">
+                                <rect key="frame" x="56.333333333333343" y="284.33333333333331" width="262.33333333333326" height="162.33333333333331"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="State" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITB-ka-HXN">
-                                <rect key="frame" x="36" y="484" width="303" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITB-ka-HXN">
+                                <rect key="frame" x="56.333333333333343" y="406" width="262.33333333333326" height="162.33333333333337"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="tVn-A8-E6a" firstAttribute="centerX" secondItem="jTM-Lr-bZT" secondAttribute="centerX" id="2dF-EB-taR"/>
+                            <constraint firstItem="ugz-ap-DXD" firstAttribute="centerX" secondItem="jTM-Lr-bZT" secondAttribute="centerX" id="7lq-Qa-MOh"/>
+                            <constraint firstItem="ugz-ap-DXD" firstAttribute="height" secondItem="jTM-Lr-bZT" secondAttribute="height" multiplier="0.2" id="9VZ-tH-HxL"/>
+                            <constraint firstItem="ugz-ap-DXD" firstAttribute="centerY" secondItem="jTM-Lr-bZT" secondAttribute="centerY" multiplier="0.9" id="F7t-cV-Zgu"/>
+                            <constraint firstItem="ITB-ka-HXN" firstAttribute="centerY" secondItem="jTM-Lr-bZT" secondAttribute="centerY" multiplier="1.2" id="Mh8-Mk-E4J"/>
+                            <constraint firstItem="ugz-ap-DXD" firstAttribute="width" secondItem="jTM-Lr-bZT" secondAttribute="width" multiplier="0.7" id="X0C-4y-bmL"/>
+                            <constraint firstItem="ITB-ka-HXN" firstAttribute="centerX" secondItem="jTM-Lr-bZT" secondAttribute="centerX" id="hBS-BJ-aQU"/>
+                            <constraint firstItem="tVn-A8-E6a" firstAttribute="top" secondItem="bVC-gI-Jam" secondAttribute="top" multiplier="1.8" id="riH-jc-ZFd"/>
+                            <constraint firstItem="ITB-ka-HXN" firstAttribute="height" secondItem="jTM-Lr-bZT" secondAttribute="height" multiplier="0.2" id="xaE-hp-LY0"/>
+                            <constraint firstItem="ITB-ka-HXN" firstAttribute="width" secondItem="jTM-Lr-bZT" secondAttribute="width" multiplier="0.7" id="ysY-u2-CoZ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="bVC-gI-Jam"/>
                     </view>
                     <connections>

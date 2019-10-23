@@ -17,43 +17,58 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="緯度・経度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rBc-1d-cUI">
-                                <rect key="frame" x="99" y="119" width="177" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="緯度・経度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rBc-1d-cUI">
+                                <rect key="frame" x="99" y="79.333333333333329" width="177" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="緯度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wV4-GS-Ymw">
-                                <rect key="frame" x="152" y="350" width="71" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="緯度" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wV4-GS-Ymw">
+                                <rect key="frame" x="37.666666666666657" y="243.66666666666663" width="300" height="81"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="緯度lat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fH-aM-xTb">
-                                <rect key="frame" x="-20" y="381" width="414" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="緯度lat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fH-aM-xTb">
+                                <rect key="frame" x="18.666666666666657" y="304.66666666666669" width="337.66666666666674" height="121.66666666666669"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="経度lng" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nie-eE-Gkq">
-                                <rect key="frame" x="-20" y="533" width="414" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="経度lng" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nie-eE-Gkq">
+                                <rect key="frame" x="18.666666666666657" y="507.66666666666669" width="337.66666666666674" height="121.66666666666669"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="経度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSh-NB-pVD">
-                                <rect key="frame" x="152" y="509" width="71" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="経度" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSh-NB-pVD">
+                                <rect key="frame" x="18.666666666666657" y="446.66666666666669" width="337.66666666666674" height="81.000000000000057"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ZSh-NB-pVD" firstAttribute="centerX" secondItem="s4w-33-khz" secondAttribute="centerX" id="1fh-vU-zEu"/>
+                            <constraint firstItem="9fH-aM-xTb" firstAttribute="centerX" secondItem="s4w-33-khz" secondAttribute="centerX" id="3bu-a1-qsx"/>
+                            <constraint firstItem="nie-eE-Gkq" firstAttribute="centerY" secondItem="s4w-33-khz" secondAttribute="centerY" multiplier="1.4" id="9EY-5w-eRO"/>
+                            <constraint firstItem="9fH-aM-xTb" firstAttribute="height" secondItem="s4w-33-khz" secondAttribute="height" multiplier="0.15" id="EMR-BJ-W10"/>
+                            <constraint firstItem="ZSh-NB-pVD" firstAttribute="width" secondItem="s4w-33-khz" secondAttribute="width" multiplier="0.9" id="Ezz-Kg-lu6"/>
+                            <constraint firstItem="wV4-GS-Ymw" firstAttribute="centerX" secondItem="s4w-33-khz" secondAttribute="centerX" id="J5W-xD-QE9"/>
+                            <constraint firstItem="ZSh-NB-pVD" firstAttribute="centerY" secondItem="s4w-33-khz" secondAttribute="centerY" multiplier="1.2" id="NSY-vc-yEL"/>
+                            <constraint firstItem="9fH-aM-xTb" firstAttribute="centerY" secondItem="s4w-33-khz" secondAttribute="centerY" multiplier="0.9" id="OuF-nc-IKJ"/>
+                            <constraint firstItem="rBc-1d-cUI" firstAttribute="top" secondItem="UVi-PN-W8q" secondAttribute="top" multiplier="1.8" id="QGI-Bi-qn7"/>
+                            <constraint firstItem="nie-eE-Gkq" firstAttribute="width" secondItem="s4w-33-khz" secondAttribute="width" multiplier="0.9" id="ba9-Cq-Urc"/>
+                            <constraint firstItem="wV4-GS-Ymw" firstAttribute="width" secondItem="s4w-33-khz" secondAttribute="width" multiplier="0.8" id="eJ5-Cy-E6b"/>
+                            <constraint firstItem="nie-eE-Gkq" firstAttribute="height" secondItem="s4w-33-khz" secondAttribute="height" multiplier="0.15" id="g8T-Lo-0pb"/>
+                            <constraint firstItem="9fH-aM-xTb" firstAttribute="width" secondItem="s4w-33-khz" secondAttribute="width" multiplier="0.9" id="gLm-89-clG"/>
+                            <constraint firstItem="ZSh-NB-pVD" firstAttribute="height" secondItem="s4w-33-khz" secondAttribute="height" multiplier="0.1" id="gSO-0M-kMD"/>
+                            <constraint firstItem="nie-eE-Gkq" firstAttribute="centerX" secondItem="s4w-33-khz" secondAttribute="centerX" id="lJg-hF-ZHT"/>
+                            <constraint firstItem="rBc-1d-cUI" firstAttribute="centerX" secondItem="s4w-33-khz" secondAttribute="centerX" id="ocK-Fj-jgo"/>
+                            <constraint firstItem="wV4-GS-Ymw" firstAttribute="centerY" secondItem="s4w-33-khz" secondAttribute="centerY" multiplier="0.7" id="vbn-3M-Y5f"/>
+                            <constraint firstItem="wV4-GS-Ymw" firstAttribute="height" secondItem="s4w-33-khz" secondAttribute="height" multiplier="0.1" id="yb3-tP-a6Q"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="UVi-PN-W8q"/>
                     </view>
                     <connections>

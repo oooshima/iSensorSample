@@ -17,29 +17,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="移動速度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNr-6V-Ic0">
-                                <rect key="frame" x="116" y="119" width="142" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="移動速度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNr-6V-Ic0">
+                                <rect key="frame" x="116.66666666666669" y="79.333333333333329" width="142" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="mps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qvi-Eu-bHR">
-                                <rect key="frame" x="41" y="364" width="292" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qvi-Eu-bHR">
+                                <rect key="frame" x="56.333333333333343" y="284.33333333333331" width="262.33333333333326" height="162.33333333333331"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="kph" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I9h-kT-Kte">
-                                <rect key="frame" x="41" y="476" width="292" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="kph" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I9h-kT-Kte">
+                                <rect key="frame" x="56.333333333333343" y="406" width="262.33333333333326" height="162.33333333333337"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="I9h-kT-Kte" firstAttribute="width" secondItem="qiB-6j-Sb3" secondAttribute="width" multiplier="0.7" id="1AG-8M-iZQ"/>
+                            <constraint firstItem="qvi-Eu-bHR" firstAttribute="width" secondItem="qiB-6j-Sb3" secondAttribute="width" multiplier="0.7" id="1QY-Jw-crg"/>
+                            <constraint firstItem="hNr-6V-Ic0" firstAttribute="centerX" secondItem="qiB-6j-Sb3" secondAttribute="centerX" id="3jZ-sj-Ydy"/>
+                            <constraint firstItem="I9h-kT-Kte" firstAttribute="centerX" secondItem="qiB-6j-Sb3" secondAttribute="centerX" id="82A-Il-7jW"/>
+                            <constraint firstItem="qvi-Eu-bHR" firstAttribute="centerX" secondItem="qiB-6j-Sb3" secondAttribute="centerX" id="9LU-8D-Y80"/>
+                            <constraint firstItem="qvi-Eu-bHR" firstAttribute="height" secondItem="qiB-6j-Sb3" secondAttribute="height" multiplier="0.2" id="LRn-LC-6OL"/>
+                            <constraint firstItem="I9h-kT-Kte" firstAttribute="height" secondItem="qiB-6j-Sb3" secondAttribute="height" multiplier="0.2" id="QJ6-B2-Dqd"/>
+                            <constraint firstItem="I9h-kT-Kte" firstAttribute="centerY" secondItem="qiB-6j-Sb3" secondAttribute="centerY" multiplier="1.2" id="luw-Rg-4Nw"/>
+                            <constraint firstItem="hNr-6V-Ic0" firstAttribute="top" secondItem="oKF-Xg-asK" secondAttribute="top" multiplier="1.8" id="qfX-ka-cUd"/>
+                            <constraint firstItem="qvi-Eu-bHR" firstAttribute="centerY" secondItem="qiB-6j-Sb3" secondAttribute="centerY" multiplier="0.9" id="ziM-6f-hl8"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="oKF-Xg-asK"/>
                     </view>
                     <connections>

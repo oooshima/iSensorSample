@@ -17,22 +17,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QvZ-NB-5VD">
-                                <rect key="frame" x="134" y="369" width="107" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QvZ-NB-5VD">
+                                <rect key="frame" x="0.0" y="324.66666666666669" width="375" height="162.66666666666669"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="39"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="輝度センサ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jim-ti-Ofw">
-                                <rect key="frame" x="99" y="121" width="177" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="輝度センサ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jim-ti-Ofw">
+                                <rect key="frame" x="99" y="79.333333333333329" width="177" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Jim-ti-Ofw" firstAttribute="centerX" secondItem="Bg7-Gv-GFg" secondAttribute="centerX" id="1EN-ct-JKI"/>
+                            <constraint firstItem="QvZ-NB-5VD" firstAttribute="centerY" secondItem="Bg7-Gv-GFg" secondAttribute="centerY" id="27W-5M-46s"/>
+                            <constraint firstItem="QvZ-NB-5VD" firstAttribute="width" secondItem="Bg7-Gv-GFg" secondAttribute="width" id="Ddy-s5-lh2"/>
+                            <constraint firstItem="Jim-ti-Ofw" firstAttribute="top" secondItem="Lb7-d4-xcr" secondAttribute="top" multiplier="1.8" id="PhN-MV-NWH"/>
+                            <constraint firstItem="QvZ-NB-5VD" firstAttribute="centerX" secondItem="Bg7-Gv-GFg" secondAttribute="centerX" id="qe7-dp-k00"/>
+                            <constraint firstItem="QvZ-NB-5VD" firstAttribute="height" secondItem="Bg7-Gv-GFg" secondAttribute="height" multiplier="0.2" id="rEs-1Y-h5D"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Lb7-d4-xcr"/>
                     </view>
                     <connections>
